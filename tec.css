@@ -71,3 +71,17 @@ li{
 #primeiro{
     border-bottom: 10px solid orange;
 }
+a{
+ width:550px ;
+ height: 550px;
+ text-decoration: none;
+}
+
+#titulo1{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    bottom:  90px;
+    font-size: 35px;
+
+}
