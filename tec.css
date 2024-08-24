@@ -58,28 +58,33 @@ li{
 #principal{
     margin: 0 auto;
     width: 1200px;
-    height: 100%;
-    border: 1px solid red;
+    height: 510px;
     margin-top: 27px;
 }
-#primeiro, img{
-    opacity: 0.78;
+#primeiro img{
+    opacity: 0.6;
+    width: 550px;
+    height: 500px;
+
+
+}
+#primeiro{   
+    float: left;
+    text-align: center;
+    border-radius: 5px;
     width: 550px;
     height: 500px;
     background-color: rgb(0, 0, 0);
-
-}
-#primeiro{
     border-bottom: 10px solid orange;
 }
-a{
+#link1 {
  width:550px ;
  height: 550px;
  text-decoration: none;
 }
-a:hover {
+#link1:hover {
     
- width:550px ;
+ width: 550px ;
  height: 550px;
  text-decoration: none;
 }
@@ -88,7 +93,51 @@ a:hover {
     text-decoration: none;
     color: white;
     position: relative;
-    bottom:  90px;
+    bottom:  120px;
     font-size: 35px;
 
+}
+
+
+
+.segundo img{
+    opacity: 0.5;
+    width: 625px;
+    height: 232.5px;
+
+
+}
+.segundo{   
+    float: right;
+    display: inline;
+    text-align: center;
+    border-radius: 5px;
+    width: 625px;
+    height: 232.5px;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 10px solid orange;
+    margin: 0;
+}
+.link2 {
+ width:625px ;
+ height: 232.5px;
+ text-decoration: none;
+}
+.link2:hover {
+    
+ width: 625px ;
+ height: 232.5px;
+ text-decoration: none;
+}
+
+.titulo2{
+ text-decoration: none;
+ color: white;
+ position: relative;
+ bottom:  60px;
+ font-size: 29px;
+
+}
+#margem{
+    margin-bottom: 25px;
 }
